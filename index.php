@@ -40,8 +40,14 @@ $operacao->input();
 
 switch ($menu) {
     case '1':
-       echo sprintf("Resultado: %s", (int) $operacao->$numero1 + (int) $operacao->$numero2);
+       echo sprintf($operacao->$numero1 = sqrt($numero1));
     break;
+    case '2':
+        echo sprintf("Resultado: %s", (int) $operacao->$numero1 + (int) $operacao->$numero2);
+     break;
+     case '3':
+        echo sprintf("Resultado: %s", (int) $operacao->$numero1 + (int) $operacao->$numero2);
+     break;
 
     default:
         echo ("Não foi Possível executar a operaçã,o digite um valo válido !");
