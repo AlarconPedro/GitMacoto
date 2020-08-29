@@ -46,7 +46,7 @@ switch ($menu) {
         echo sprintf($operacao->$numero1 = gmp_fact($numero1));
      break;
      case '3':
-        echo sprintf("Resultado: %s", (int) $operacao->$numero1 + (int) $operacao->$numero2);
+        echo sprintf(pow($operacao->$numero1, 2));
      break;
 
     default:
